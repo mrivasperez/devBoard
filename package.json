@@ -1,5 +1,5 @@
 {
-  "name": "jsboard",
+  "name": "devBoard",
   "version": "1.0.0",
   "description": "A code editor to help you learn web development.",
   "main": "assets/index.js",
