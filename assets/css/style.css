@@ -1,0 +1,89 @@
+html,
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#header {
+  width: 100%;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  padding: 20px 20px 0px 20px;
+  height: 50px;
+  border-bottom: rgb(0, 0, 0) solid 5px;
+}
+
+#buttonContainer {
+  width: 233px;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+  font-weight: bold;
+  font-size: 160%;
+  padding: 0px 0px;
+}
+
+.toggleButton {
+  float: left;
+  border: 1px solid gray;
+  padding: 6px;
+  border-right: none;
+  font-size: 90%;
+  cursor: pointer;
+}
+
+.toggleButton:hover {
+  background-color: gray;
+}
+
+.toggleButton.active:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#html {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#output {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right: 1px solid gray;
+}
+
+/* hover effect */
+.highlightedButton {
+  background-color: gray;
+}
+
+textarea {
+  height: 100vh;
+  outline: none;
+  resize: none;
+  border-top: none;
+  border-color: gray;
+  font-size: 14px;
+}
+
+.panel {
+  float: left;
+  width: 50%;
+  border-left: none;
+}
+
+iframe {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
